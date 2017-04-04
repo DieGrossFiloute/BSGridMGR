@@ -1,0 +1,22 @@
+#mnu-grid-mgr{
+	display: none;
+	position:absolute;
+}
+#mnu-grid-mgr.show{
+	display: inline-block !important;
+	z-index: 1;
+}
+.ui-state-active{
+	background-color: aliceblue !important;
+	background: aliceblue !important;
+}
+
+.ui-resizable .row{height: 130px;}
+.ui-resizable:not(.row){
+	background-color: grey;
+	border: 1px solid black;
+	height:100%;
+ 	padding: 0.5em;
+ 	text-align: center;
+ 	vertical-align: middle;
+}
